@@ -9,7 +9,7 @@ has_children: true
 
 * Data Preparation with Data Prep Kit
 * Retrieval Augmented Fine-Tuning (RAFT) for Domain-Specific Chatbots
-* RAG for Q&A with OPEA
+* [Simplify GenAI RAG Deployments with Open Platform for Enterprise (OPEA)]({{site.baseurl}}/exploring/Simplify-GenAI-RAG-Deployments-with-Open-Platform-for-Enterprise-OPEA).
 * [Granite Community and Cookbooks]({{site.baseurl}}/exploring/granite-community-cookbooks).
 * DANA: Domain-Aware Neurosymbolic Agent
 * GraphRAG
