@@ -20,7 +20,7 @@ DANA is [Aitomatic](https://www.aitomatic.com)'s agentic-AI system architecture 
 - __Scalable Expertise__ through AI agents incorporating deep domain knowledge from human experts
 - __Economical and Efficient Computation__ thanks to usage of small models
 
-![DANA Architecture](DANA-Architecture.png)
+![DANA Architecture]({{site.baseurl}}/exploring/dana-domain-aware-neurosymbolic-agents/DANA-Architecture.png)
 
 ## Architecture Components
 DANA's architecture consists of the key components:
@@ -32,7 +32,7 @@ DANA's architecture consists of the key components:
 ## Performance Benchmarking
 DANA achieved over 90% accuracy on the [FinanceBench](https://arxiv.org/abs/2311.11944) dataset, significantly outperforming tools like LangChain ReAct and OpenAI Assistant in both accuracy and consistency across 150 financial analysis questions of varying difficulty.
 
-![DANA Outperforms Current Agent Tools](DANA-Outperforms-Current-Agent-Tools.png)
+![DANA Outperforms Current Agent Tools]({{site.baseurl}}/exploring/dana-domain-aware-neurosymbolic-agents/DANA-Outperforms-Current-Agent-Tools.png)
 
 - `0-RETRIEVE`: retrieve a single data point
 - `1-COMPARE`: compare a small number of retrievable data points of the same type
@@ -50,7 +50,7 @@ In semiconductor manufacturing, plasma etching recipe formulation is a critical 
 
 In this example, the Etching Advisor AI agent was constructed by integrating DANA with [SemiKong](https://SemiKong.ai), the world's first open-source semiconductor LLM pioneered by the AI Alliance's Foundation Models workgroup. This agent demonstrates precise etching recipe analyses and recommendations, including pros-and-cons comparisons of feasible alternatives. It illustrates how such an AI solution could help process engineers save time and quickly arrive at optimal recipes.
 
-![Typical Recipe Analysis & Recommendation from DANA-and-SemiKong-based Semiconductor Etching Advisor](DANA-and-SemiKong-based-Semiconductor-Etching-Advisor-Recommendation.png)
+![Typical Recipe Analysis & Recommendation from DANA-and-SemiKong-based Semiconductor Etching Advisor]({{site.baseurl}}/exploring/dana-domain-aware-neurosymbolic-agents/DANA-and-SemiKong-based-Semiconductor-Etching-Advisor-Recommendation.png)
 
 Watch the demo on [YouTube](https://www.youtube.com/watch?v=1pUaIwyky9Y).
 
