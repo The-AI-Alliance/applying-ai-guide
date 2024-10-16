@@ -11,5 +11,5 @@ has_children: true
 * Retrieval Augmented Fine-Tuning (RAFT) for Domain-Specific Chatbots
 * [Simplify GenAI RAG Deployments with Open Platform for Enterprise (OPEA)]({{site.baseurl}}/exploring/Simplify-GenAI-RAG-Deployments-with-Open-Platform-for-Enterprise-OPEA).
 * [Granite Community and Cookbooks]({{site.baseurl}}/exploring/granite-community-cookbooks).
-* DANA: Domain-Aware Neurosymbolic Agent
+* [DANA: Domain-Aware Neurosymbolic Agent]({{site.baseurl}}/exploring/dana-domain-aware-neurosymbolic-agents)
 * GraphRAG
