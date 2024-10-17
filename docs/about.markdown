@@ -6,7 +6,7 @@ nav_order: 100
 
 # About The AI Alliance and This Document
 
-The **Living Guide to Applying AI** is developed by the [Applications and Tools](https://thealliance.ai/focusareas/applications-and-tools){:target="aandt"} in [The AI Alliance](https://thealliance.ai){:target="ai-alliance"} and built with [GitHub Pages](https://pages.github.com/){:target="github-pages"}. The sources for this guide are in [this GitHub repo](https://github.com/The-AI-Alliance/applying-ai-guide){:target="aaig-repo"}.
+The **Living Guide to Applying AI** is developed by the [Applications and Tools](https://thealliance.ai/focus-areas/applications-and-tools){:target="aandt"} in [The AI Alliance](https://thealliance.ai){:target="ai-alliance"} and built with [GitHub Pages](https://pages.github.com/){:target="github-pages"}. The sources for this guide are in [this GitHub repo](https://github.com/The-AI-Alliance/applying-ai-guide){:target="aaig-repo"}.
 
 We welcome contributions! For more information, see [Contributing]({{site.baseurl}}/contributing/).
 
