@@ -10,18 +10,18 @@ We welcome your contributions to the Applying AI Guide. The goal of this living 
 
 Areas of interest:
 - Ethical considerations and bias mitigation in AI
--	Data collection and preprocessing techniques
--	Model selection and evaluation metrics
--	AI-powered user experience (UX) design
--	Explainability and interpretability of AI models
--	Deployment and monitoring of AI systems
--	Edge AI and on-device machine learning
--	AI in industry-specific applications (e.g., healthcare, finance, logistics)
--	Integration of AI with existing IT infrastructure
--	Human-AI collaboration and decision support
--	Regulatory compliance and legal aspects of AI
--	AI-driven innovation and emerging technologies
--	Case studies and success stories of AI implementations
+- Data collection and preprocessing techniques
+- Model selection and evaluation metrics
+- AI-powered user experience (UX) design
+- Explainability and interpretability of AI models
+- Deployment and monitoring of AI systems
+- Edge AI and on-device machine learning
+- AI in industry-specific applications (e.g., healthcare, finance, logistics)
+- Integration of AI with existing IT infrastructure
+- Human-AI collaboration and decision support
+- Regulatory compliance and legal aspects of AI
+- AI-driven innovation and emerging technologies
+- Case studies and success stories of AI implementations
 
 # How to contribute
 
