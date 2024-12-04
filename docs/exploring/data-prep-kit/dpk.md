@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Data Preparation with Data Prep Kit
+title: Data Preparation with Data Prep Kit - IBM
 nav_order: 20
 parent: Exploring AI System Design
 ---
