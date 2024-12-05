@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Domain-Aware Neurosymbolic Agent (DANA) Architecture for Industrial AI
+title: Domain-Aware Neurosymbolic Agent (DANA) Architecture for Industrial AI - Aitomatic and Fenrir
 nav_order: 80
 parent: Exploring AI System Design
 ---

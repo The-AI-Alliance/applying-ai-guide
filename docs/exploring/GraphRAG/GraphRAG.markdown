@@ -1,11 +1,11 @@
 ---
 layout: default
-title: GraphRAG from Neo4j
+title: GraphRAG - Neo4j
 nav_order: 70
 parent: Exploring AI System Design
 ---
 
-# Taking GenAI Applications to the Next Level with GraphRAG from Neo4j
+# Taking GenAI Applications to the Next Level with GraphRAG
 
 While the established RAG architectures allow for more focused retrieval, they struggle with necessary context and global meaning. Relationships between entities in documents spanning across documents are hard to represent in vector space. GraphRAG was proposed and evolved by teams at Microsoft, [Neo4j](https://neo4j.com/){:target="neo4j"}, and others to augment LLMs where the Retrieval path includes a Knowledge Graph like below: 
 
