@@ -7,7 +7,7 @@ parent: Exploring AI System Design
 
 # Taking GenAI Applications to the Next Level with GraphRAG from Neo4j
 
-While the established RAG architectures allow for more focused retrieval, they struggle with necessary context and global meaning. Relationships between entities in documents spanning across documents are hard to represent in vector space. GraphRAG was proposed and evolved by teams at Microsoft, [Neo4j](https://neo4j.com/), and others to augment LLMs where the Retrieval path includes a Knowledge Graph like below: 
+While the established RAG architectures allow for more focused retrieval, they struggle with necessary context and global meaning. Relationships between entities in documents spanning across documents are hard to represent in vector space. GraphRAG was proposed and evolved by teams at Microsoft, [Neo4j](https://neo4j.com/){:target="neo4j"}, and others to augment LLMs where the Retrieval path includes a Knowledge Graph like below: 
 
 GraphRAG Architecture: 
 ![GraphRAG Architecture]({{site.baseurl}}/exploring/GraphRAG/graphrag-architecture.png)
@@ -30,7 +30,7 @@ GraphRAG use cases are numerous, for example:
 5. Sales and Marketing – aligning multiple data points of interest, engagement, and social proximity, it becomes easier to make meaningful offerings and nourish organic relationships.
 
 
-Further reading, courses, and tools for testing Knowledge Graphs with LLMs can be found at [The GenAI Ecosystem](https://neo4j.com/labs/genai-ecosystem/). For additional research on the newest GraphRAG developments with Neo4j and its partners LangChain, Llama Index, as well as upcoming collaborations with Pinecone, Zilliz and more can be found in the Neo4j [GraphRAG Manifesto](https://neo4j.com/blog/graphrag-manifesto/), Microsoft [GraphRAG project](https://www.microsoft.com/en-us/research/project/graphrag/), and their bibliographies.
+Further reading, courses, and tools for testing Knowledge Graphs with LLMs can be found at [The GenAI Ecosystem](https://neo4j.com/labs/genai-ecosystem/){:target="genai-eco"}. For additional research on the newest GraphRAG developments with Neo4j and its partners LangChain, Llama Index, as well as upcoming collaborations with Pinecone, Zilliz and more can be found in the Neo4j [GraphRAG Manifesto](https://neo4j.com/blog/graphrag-manifesto/){:target="manifesto"}, Microsoft [GraphRAG project](https://www.microsoft.com/en-us/research/project/graphrag/){:target="graphrag-proj"}, and their bibliographies.
 
 
 
