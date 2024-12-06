@@ -11,7 +11,7 @@ As the popularity of Meta Llama models grows, we've seen a surge in demand to ad
 
 Supervised fine-tuning (SFT) a Meta Llama based chatbot involves adapting a pre-trained model to a new domain by updating its weights based on domain-specific data. However relying on SFT might not be enough especially  when we are dealing with frequent updates to the domain documents. Additionally, Large Language Models (LLMs) suffer from hallucinations, where occasionally their outputs might not be factual. On the other hand, Retrieval-Augmented Generation (RAG)-based chatbot combines information retrieval systems with Llama models, retrieving relevant information from a database to enhance the model’s responses. However, sometimes the chatbot response is not ideal as the retrieved documents may be noisy, this would lead to inaccurate outputs where models may hallucinate and return responses that are not factual.
 
-Here, we make use of  Retrieval Augmented Fine Tuning (RAFT), a straightforward and powerful fine-tuning Chatbot recipe to enhance the Llama model's performance in answering questions within specific domains when combined with Retrieval-Augmented Generation (RAG) system. The end to end recipe can be found [here](https://github.com/meta-llama/llama-recipes/tree/main/recipes/use_cases/end2end-recipes/RAFT-Chatbot).
+Here, we make use of  Retrieval Augmented Fine Tuning (RAFT), a straightforward and powerful fine-tuning Chatbot recipe to enhance the Llama model's performance in answering questions within specific domains when combined with Retrieval-Augmented Generation (RAG) system. The end to end recipe can be found [here](https://github.com/meta-llama/llama-recipes/tree/main/recipes/use_cases/end2end-recipes/RAFT-Chatbot){:target="raft-cb"}.
 
 ## Architecture
 
@@ -61,7 +61,7 @@ In this case study, we have built a Llama chatbot capable of answering Llama-rel
 
 Ideally, we would use all Llama-related web pages to train the model. However, for this case study, we focused on official documents, including all Llama website documents and Pytorch official documents. We included Pytorch documents because many Llama-related questions often involve topics like fine-tuning and quantization, which are closely related to Pytorch.
 
-To create the RAFT dataset, inspired by [self-instruct paper](https://arxiv.org/abs/2212.10560) we used LLama 3 70B  to assist building the dataset from our data. Please find the code [here](https://github.com/meta-llama/llama-recipes/blob/main/recipes/use_cases/end2end-recipes/RAFT-Chatbot/raft.py).
+To create the RAFT dataset, inspired by [self-instruct paper](https://arxiv.org/abs/2212.10560){:target="arxiv"} we used LLama 3 70B  to assist building the dataset from our data. Please find the code [here](https://github.com/meta-llama/llama-recipes/blob/main/recipes/use_cases/end2end-recipes/RAFT-Chatbot/raft.py){:target="meta-llama"}.
 
 1. **Document Splitting**: We split the official documents into chunks of 1,000 characters each.
 2. **Question and Answer Generation**: For each chunk, we used the 70B Instruct model to generate a question and corresponding chain-of-thought (COT) style answers.
@@ -77,7 +77,7 @@ We fine-tuned the Meta Llama 3 8B Instruct model using the prepared RAFT dataset
 
 ### Evaluations using LLM as Judge
 
-To evaluate the chatbot, we created [a test set of 71 Q&A pairs](https://github.com/meta-llama/llama-recipes/blob/main/recipes/use_cases/end2end-recipes/RAFT-Chatbot/eval_llama.json),  based on our Llama FAQ page, supplemented with some human-annotated Q&A pairs. We used "LLM-as-judge" where we asked the 70B Instruct model to compare the chatbot’s answers to the ground truth, allowing us to assess its performance, please find the code [here](https://github.com/meta-llama/llama-recipes/blob/main/recipes/use_cases/end2end-recipes/RAFT-Chatbot/raft_eval.py). In this case study, we evaluate three different RAFT models:
+To evaluate the chatbot, we created [a test set of 71 Q&A pairs](https://github.com/meta-llama/llama-recipes/blob/main/recipes/use_cases/end2end-recipes/RAFT-Chatbot/eval_llama.json){:target="meta-llama"},  based on our Llama FAQ page, supplemented with some human-annotated Q&A pairs. We used "LLM-as-judge" where we asked the 70B Instruct model to compare the chatbot’s answers to the ground truth, allowing us to assess its performance, please find the code [here](https://github.com/meta-llama/llama-recipes/blob/main/recipes/use_cases/end2end-recipes/RAFT-Chatbot/raft_eval.py){:target="meta-llama"}. In this case study, we evaluate three different RAFT models:
 
 1. **llama_only model**: This model was trained exclusively with documents related to Llama, consisting of over 1,980 RAFT generated examples.
 2. **pytorch_only model**: This model was trained using only Pytorch-related documents, with over 20,000 RAFT generated examples.
@@ -117,4 +117,4 @@ Retrieval-Augmented Fine-Tuning (RAFT) represents a significant advancement in d
 
 ## Acknowledgement
 
-We would like to extend special thanks to Tianjun Zhang & Kai Wu, the authors of the [RAFT](https://gorilla.cs.berkeley.edu/blogs/9_raft.html), for collaborating with us on this blog and providing valuable guidance throughout our experiments. Our case study code can be found in [this RAFT chatbot tutorial](https://github.com/meta-llama/llama-recipes/tree/b5f64c0b69d7ff85ec186d964c6c557d55025969/recipes/use_cases/end2end-recipes/RAFT-Chatbot) from [llama-recipe](https://github.com/meta-llama/llama-recipes), and our code is also inspired by the [RAFT github](https://github.com/tianjunz/raft_llm/).
+We would like to extend special thanks to Tianjun Zhang & Kai Wu, the authors of the [RAFT](https://gorilla.cs.berkeley.edu/blogs/9_raft.html){:target="raft-paper"}, for collaborating with us on this blog and providing valuable guidance throughout our experiments. Our case study code can be found in [this RAFT chatbot tutorial](https://github.com/meta-llama/llama-recipes/tree/b5f64c0b69d7ff85ec186d964c6c557d55025969/recipes/use_cases/end2end-recipes/RAFT-Chatbot){:target="meta-llama"} from [llama-recipe](https://github.com/meta-llama/llama-recipes){:target="meta-llama-recipes"}, and our code is also inspired by the [RAFT github](https://github.com/tianjunz/raft_llm/){:target="raft-repo"}.
