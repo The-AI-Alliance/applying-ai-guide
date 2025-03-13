@@ -1,17 +1,18 @@
 ---
 layout: default
-title: Granite Community and Cookbooks from IBM
+title: Granite Community and Cookbooks - IBM
 nav_order: 60
 parent: Exploring AI System Design
 ---
 
-# Granite Community and Cookbooks from IBM
+# Granite Community and Cookbooks
 
 IBM introduces the Granite Community for building with IBM's
 [Granite Model Family](https://www.ibm.com/granite){:target="granite-fam"}.
 
 The Granite family of foundation models span an increasing variety of modalities, including language, code, time series, and science (e.g., materials) - with much more to come. We're building them with transparency and with focus on fulfilling rigorous enterprise requirements that are emerging for AI. If you'd like to learn more about the models themselves and how we build them, check out
 [Granite Models](https://github.com/ibm-granite){:target="granite"}.
+For a overview of Granite in PDF form, please also see the [Granite Technical Guide](https://github.com/ibm-granite-community/documentation/blob/main/IBM%20Granite%20Technical%20Guide.pdf).
 
 The mission of the Granite Community organization is to work collaboratively across industries and geographies to leverage Granite to solve problems and bring value across use cases, from code generation and modernization, to forecasting and predictive maintenance, to materials discovery.
 
