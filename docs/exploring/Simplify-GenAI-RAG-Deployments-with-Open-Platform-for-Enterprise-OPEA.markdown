@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Simplify GenAI RAG Deployments with OPEA
+title: Simplify GenAI RAG Deployments with OPEA - Intel
 nav_order: 50
 parent: Exploring AI System Design
 ---
