@@ -11,7 +11,7 @@ The **Living Guide to Applying AI** is developed by the [Applications and Tools]
 We welcome contributions! For more information, see [Contributing]({{site.baseurl}}/contributing/).
 
 * [More About the AI Alliance](https://thealliance.ai/about-aia){:target="ai-alliance"}
-* [Contact Us](mailto:contact@thealliance.ai) (email)
+* [Contact Us](mailto:contact@thealliance.ai?subject=Questions&#32;about&#32;the&#32;AI&#32;Alliance) (email)
 * Follow us on [LinkedIn](https://www.linkedin.com/company/the-aialliance/){:target="linkedin"}
 
 ## About Jekyll
