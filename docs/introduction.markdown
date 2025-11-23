@@ -19,4 +19,4 @@ The goal of this living document is to provide useful, up-to-date resources for 
 
 AI system designs include application patterns like [engineering user prompts](https://en.wikipedia.org/wiki/Prompt_engineering){:target="wikipedia-prompt-eng"} and [RAG](https://research.ibm.com/blog/retrieval-augmented-generation-RAG){:target="ibm-rag"}.
 
-Proceed to the [glossary]({{site.baseurl}}/glossary).
+Next, we [explore AI system design concepts]({{site.baseurl}}/exploring/exploring) as expressed by various expert organizations.

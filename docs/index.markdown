@@ -8,16 +8,18 @@ has_children: false
 # The Living Guide to Applying AI
 
 | **Authors** | [The AI Alliance Applications and Tools Work Group](https://thealliance.ai/focus-areas/applications-and-tools){:target="ai-alliance-atwg"} |
-| **Last Update** | V1.2.1, 2025-06-03 |
+| **Last Update** | {{site.last_version}}, {{site.last_modified_timestamp}} |
 
 Welcome to the **The Living Guide to Applying AI**, an introduction to the broad topic of building AI systems and products, prepared by The AI Alliance.
 
-> **Tip:** Use the search box at the top of this page to find specific content.
+> **Tips:** 
+> 
+> 1. Use the search box at the top of this page to find specific content.
+> 2. [Capitalized Terms]({{site.glossaryurl}}/){:target="_glossary"} link to glossary definitions.
 
 This guide is organized as follows:
 
 * [Introduction to Applying AI]({{site.baseurl}}/introduction): Introduction.
-* [A Glossary of Terms]({{site.baseurl}}/glossary): How we define various terms.
 * [Exploring AI System Design]({{site.baseurl}}/exploring/exploring): Several expert explorations of key concepts.
 * [Final Thoughts]({{site.baseurl}}/final-thoughts): Conclusions.
 * [References]({{site.baseurl}}/references): For more information.
@@ -28,12 +30,3 @@ Additional links:
 * [About Us]({{site.baseurl}}/about): More about the AI Alliance and this document.
 * [The AI Alliance](https://thealliance.ai){:target="ai-alliance"}
 * [This Guide's GitHub Repo](https://github.com/The-AI-Alliance/applying-ai-guide){:target="aaig-repo"}
-
-### Version History
-
-| Version  | Date       |
-| :------- | :--------- |
-| V1.2.1   | 2025-06-03 |
-| V1.2.0   | 2024-12-04 |
-| V1.1.0   | 2024-10-16 |
-| V1.0.0   | 2024-09-23 |
