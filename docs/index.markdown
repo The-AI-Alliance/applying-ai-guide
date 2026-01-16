@@ -7,9 +7,6 @@ has_children: false
 
 # The Living Guide to Applying AI
 
-| **Authors** | [The AI Alliance Applications and Tools Work Group](https://thealliance.ai/focus-areas/applications-and-tools){:target="ai-alliance-atwg"} |
-| **Last Update** | {{site.last_version}}, {{site.last_modified_timestamp}} |
-
 Welcome to the **The Living Guide to Applying AI**, an introduction to the broad topic of building AI systems and products, prepared by The AI Alliance.
 
 > **Tips:** 
