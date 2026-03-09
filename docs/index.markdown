@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: The Living Guide to Applying AI
 nav_order: 10
 has_children: false
 ---
